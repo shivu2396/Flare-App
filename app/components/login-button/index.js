@@ -1,21 +1,21 @@
 import * as React from 'react';
-import {View, Text, TouchableOpacity, TextInput} from 'react-native';
+import {Text, TouchableOpacity} from 'react-native';
 
 import LinearGradient from 'react-native-linear-gradient';
 import {styles} from './style';
+import {Colors} from '@themes';
 
-export const Loginbutton = ({navigation}) => {
+export const Buttons = (props) => {
   return (
-    <View style={styles.footer}>
-      <TouchableOpacity>
-        <LinearGradient
-          start={{x: 0, y: 0}}
-          end={{x: 1, y: 1}}
-          style={styles.button}
-          colors={['#FFA21A', '#FFBF2A', '#FFBF2A']}>
-          <Text style={styles.buttontext}> Login</Text>
-        </LinearGradient>
-      </TouchableOpacity>
-    </View>
+    <TouchableOpacity onPress={props.button}>
+      <LinearGradient
+        start={{x: 0, y: 1}}
+        end={{x: 1, y: 1}}
+        locations={[0, 0.2, 1]}
+        style={styles.button}
+        colors={[Colors.ORANGE, Colors.YELLOW, Colors.LIGHTYELLOW]}>
+        <Text style={styles.buttontext}>{props.text}</Text>
+      </LinearGradient>
+    </TouchableOpacity>
   );
 };

@@ -1,14 +1,7 @@
-export const Innerdata = [
-  {
-    title: 'Welcome back',
-
-    option: [
-      {
-        options: 'What your email',
-      },
-      {
-        options: 'And your password',
-      },
-    ],
-  },
-];
+export const Innerdata = {
+  id: 0,
+  logintitle: 'Login',
+  continuetitle: 'Continue',
+  placeholdertext1: 'What your email?',
+  placeholdertext2: 'And your password?',
+};

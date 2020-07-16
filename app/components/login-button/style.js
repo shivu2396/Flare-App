@@ -3,17 +3,20 @@ import {Size} from '../../themes/size';
 
 export const styles = StyleSheet.create({
   footer: {
-    // height: '20%',
+    // height: '15%',
     // backgroundColor: 'green',
   },
   button: {
+    marginVertical: Size.moderateScale(50),
     marginHorizontal: Size.moderateScale(30),
-    padding: Size.moderateScale(14),
+    height: Size.moderateScale(45),
+    // padding: Size.moderateScale(14),
     // backgroundColor: 'red',
   },
   buttontext: {
+    marginVertical: Size.moderateScale(10),
     textAlign: 'center',
-    fontSize: Size.moderateScale(15),
+    fontSize: Size.moderateScale(18),
     color: 'white',
   },
 });

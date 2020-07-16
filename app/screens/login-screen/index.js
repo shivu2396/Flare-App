@@ -1,36 +1,27 @@
-import React, {useState} from 'react';
-import {View, Text, TextInput, FlatList} from 'react-native';
+import * as React from 'react';
+import {View, Text, KeyboardAvoidingView, TouchableOpacity} from 'react-native';
+
+import {Arrowbar, Textcard, Buttons} from '@components';
 
 import {styles} from './style';
-import {Arrowbar, Createbutton} from '@components';
-
-// import {Flarecard} from '@components';
 
 export const LoginScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Arrowbar />
-
       <View style={styles.heading}>
-        <Text style={styles.headingtext}>Welcome back </Text>
+        <Text style={styles.headingtext}> Welcome back</Text>
       </View>
       <View style={styles.content}>
-        <TextInput
-          style={styles.contenttitle}
-          placeholder="What's your email?"
-          placeholderTextColor="#9B9B9B"
-        />
-        <TextInput
-          style={styles.contenttitle1}
-          placeholder="And yourpassword?"
-          placeholderTextColor="#9B9B9B"
-        />
+        <Textcard text="What's your email" />
+        <Textcard text="And your password" />
       </View>
-
-      <Createbutton />
-      <View style={styles.passwordblock}>
-        <Text style={styles.passwordtext}> Forgot Password?</Text>
-      </View>
+      <KeyboardAvoidingView behavior="position" style={styles.footer}>
+        <Buttons text="Login" button={() => navigation.navigate('Signup')} />
+        {/* <TouchableOpacity onPress={() => navigation.navigate('Signup')}>
+          <Text style={styles.passwordtext}> Forgot password?</Text>
+        </TouchableOpacity> */}
+      </KeyboardAvoidingView>
     </View>
   );
 };
