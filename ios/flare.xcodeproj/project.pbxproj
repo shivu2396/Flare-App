@@ -23,6 +23,7 @@
 		E91F949424BC3D4E0072F97E /* SFProText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91F949324BC3D4D0072F97E /* SFProText-SemiBold.ttf */; };
 		E91F949624BC3E610072F97E /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91F949524BC3E610072F97E /* SFProText-Regular.ttf */; };
 		E91F949A24BC3EE80072F97E /* SFProDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E91F949924BC3EE80072F97E /* SFProDisplay-Bold.ttf */; };
+		E96249C024C17D2400940AF6 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E96249BF24C17D2400940AF6 /* SFProText-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		E91F949324BC3D4D0072F97E /* SFProText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-SemiBold.ttf"; sourceTree = "<group>"; };
 		E91F949524BC3E610072F97E /* SFProText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Regular.ttf"; sourceTree = "<group>"; };
 		E91F949924BC3EE80072F97E /* SFProDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		E96249BF24C17D2400940AF6 /* SFProText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProText-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EFB288926D6D3BD7D4C763C7 /* Pods-flare-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flare-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-flare-tvOS/Pods-flare-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 		E91F948C24BC35FF0072F97E /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				E96249BF24C17D2400940AF6 /* SFProText-Medium.ttf */,
 				E91F949924BC3EE80072F97E /* SFProDisplay-Bold.ttf */,
 				E91F949524BC3E610072F97E /* SFProText-Regular.ttf */,
 				E91F949324BC3D4D0072F97E /* SFProText-SemiBold.ttf */,
@@ -358,6 +361,7 @@
 			files = (
 				E91F949424BC3D4E0072F97E /* SFProText-SemiBold.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				E96249C024C17D2400940AF6 /* SFProText-Medium.ttf in Resources */,
 				E91F949624BC3E610072F97E /* SFProText-Regular.ttf in Resources */,
 				E91F949A24BC3EE80072F97E /* SFProDisplay-Bold.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
